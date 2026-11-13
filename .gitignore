@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+# the built game: it goes to the GitHub release, not into the repository
+*.app/
+# Unity: generated or per-machine
+RoadToCanaan/Library/
+RoadToCanaan/Temp/
+RoadToCanaan/Logs/
+RoadToCanaan/Builds/
+RoadToCanaan/obj/
+RoadToCanaan/UserSettings/
+RoadToCanaan/*.csproj
+RoadToCanaan/*.sln
+# Blender's backup copy
+*.blend1
+# built by Tools/setup.sh from the textures and the models (loaded by name, nothing refers to them)
+RoadToCanaan/Assets/Canaan/Resources/Models.asset
+RoadToCanaan/Assets/Canaan/Resources/Models.asset.meta
+RoadToCanaan/Assets/Canaan/Resources/Surf/SurfColor.asset
+RoadToCanaan/Assets/Canaan/Resources/Surf/SurfColor.asset.meta
+RoadToCanaan/Assets/Canaan/Resources/Surf/SurfDetail.asset
+RoadToCanaan/Assets/Canaan/Resources/Surf/SurfDetail.asset.meta
+# Python's compiled caches (they hold this machine's paths)
+__pycache__/
+*.pyc
