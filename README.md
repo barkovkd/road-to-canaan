@@ -7,6 +7,22 @@
 Город Сухой Брод перестроен в духе пыльных пустынных городков у железной дороги.
 Сюжетных миссий ещё нет — это свободная игра.
 
+![Сухой Брод на закате](docs/screens/game_01_street_golden.jpg)
+
+## Кадры из игры
+
+Снимки сделаны в самой игре, на текущей сборке.
+
+<table>
+<tr><td width="50%"><img src="docs/screens/game_02_street_noon.jpg" alt="Главная улица Сухого Брода в полдень"><br><sub>Главная улица Сухого Брода в полдень</sub></td><td width="50%"><img src="docs/screens/game_03_train.jpg" alt="Поезд у станции"><br><sub>Поезд у станции</sub></td></tr>
+<tr><td width="50%"><img src="docs/screens/game_04_rider_prairie.jpg" alt="Верхом по прерии"><br><sub>Верхом по прерии</sub></td><td width="50%"><img src="docs/screens/game_05_butte_sunset.jpg" alt="Столовая гора на закате"><br><sub>Столовая гора на закате</sub></td></tr>
+<tr><td width="50%"><img src="docs/screens/game_06_cover_fight.jpg" alt="Перестрелка из укрытия"><br><sub>Перестрелка из укрытия</sub></td><td width="50%"><img src="docs/screens/game_07_hunt.jpg" alt="Охота: туша на крупе лошади"><br><sub>Охота: туша на крупе лошади</sub></td></tr>
+<tr><td width="50%"><img src="docs/screens/game_08_camp_night.jpg" alt="Лагерь переселенцев ночью"><br><sub>Лагерь переселенцев ночью</sub></td><td width="50%"><img src="docs/screens/game_09_street_night.jpg" alt="Ночная улица"><br><sub>Ночная улица</sub></td></tr>
+<tr><td width="50%"><img src="docs/screens/game_10_street_rain.jpg" alt="Дождь"><br><sub>Дождь</sub></td><td width="50%"><img src="docs/screens/game_11_saloon.jpg" alt="Салун изнутри"><br><sub>Салун изнутри</sub></td></tr>
+<tr><td width="50%"><img src="docs/screens/game_12_clouds.jpg" alt="Объёмные облака"><br><sub>Объёмные облака</sub></td><td width="50%"><img src="docs/screens/game_13_ford.jpg" alt="Река у брода"><br><sub>Река у брода</sub></td></tr>
+<tr><td width="50%"><img src="docs/screens/game_14_adobe.jpg" alt="Глинобитный квартал"><br><sub>Глинобитный квартал</sub></td><td width="50%"><img src="docs/screens/game_15_hotel_night.jpg" alt="Гостиница ночью"><br><sub>Гостиница ночью</sub></td></tr>
+</table>
+
 ## Запуск
 
 Готовая сборка для macOS (Apple Silicon) — в разделе **Releases** на GitHub: скачать архив, распаковать, правый
