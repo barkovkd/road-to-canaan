@@ -448,6 +448,17 @@ RoadToCanaan/Tools/autotest.sh <сценарий> [полный путь кат�
 WINDOWED=1 RoadToCanaan/Tools/autotest.sh perf                     # замер кадров в настоящем окне
 ```
 
+**Публикация** — https://github.com/barkovkd/road-to-canaan (публичный). Код — `git push` из папки `RDR`; в
+репозиторий не идут сборки, `Library`, `Logs`, кэши Python и производные файлы `setup.sh` (`Models.asset`, массивы
+`SurfColor`/`SurfDetail` — см. `.gitignore`). Коммиты подписаны скрытой почтой GitHub (настройка только этого
+репозитория). Выгрузка FBX проходит через `kit.scrub_fbx`: экспортёр Blender пишет в файл абсолютный путь к .blend с
+именем пользователя машины. Готовая игра — архивом в релиз:
+
+```bash
+ditto -c -k --sequesterRsrc --keepParent "<папка игры>.app" RoadToCanaan-macOS-arm64.zip
+gh release create v0.X.0 RoadToCanaan-macOS-arm64.zip --title "…" --notes-file notes.md
+```
+
 ## Кадр игры
 
 `Game.Update`: ввод → меню → масштаб времени → герой и запасы → `World.Tick` (мозги и моторы всех существ) → закон,
